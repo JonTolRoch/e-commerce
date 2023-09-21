@@ -1,2 +1,37 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div id="carousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <%= image_tag("banner.jpg", class: "d-block w-100") %>
+    </div>
+    <div class="carousel-item">
+      <%= image_tag("fender-strat.jpg", class: "d-block w-100") %>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  <h1>See more products</h1>
+  <%= image_tag("jamaica.jpg",class:"img-fluid")%>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
